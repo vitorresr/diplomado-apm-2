@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>Productos</h1>
+	<ul>
+		<li>Smartphone {{ 500000 | currency }}</li>
+		<li>Tablet {{ 200000 | currency: "" }}</li>
+		<li>laptop {{ 300000 * 0.16 + 20000 | currency: "" }} </li>
+		<li> Importado de {{ 'MaDe In ChiNA' | uppercase }} </li>
+	</ul>
+	<script type="text/javascript" src="../assets/angular.min.js"></script>
+</body>
+</html>

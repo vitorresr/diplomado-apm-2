@@ -33,7 +33,8 @@
 	  <span ng-show="studentForm.age.$error.number">Invalid number.</span>
    </span>
 </td></tr>
-<tr><td><button ng-click="reset()">Reset</button></td><td><button
+<tr><td><button ng-click="reset()">Reset</button></td>
+	<td><button
 	ng-disabled="studentForm.firstname.$dirty && studentForm.firstname.$invalid ||
 			  studentForm.lastname.$dirty && studentForm.lastname.$invalid ||
 			  studentForm.email.$dirty && studentForm.email.$invalid"

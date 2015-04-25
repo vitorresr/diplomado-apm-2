@@ -1,0 +1,18 @@
+{
+  "name": "lab29",
+  "version": "1.0.0",
+  "description": "ejercicio laboratorio nodejs",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": " "
+  },
+  "keywords": [
+    "sockets",
+    "websockets"
+  ],
+  "author": "diplomado-apm-2",
+  "license": "copyright 2015",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}

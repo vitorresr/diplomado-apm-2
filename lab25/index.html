@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="initial_spi">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="../assets/angular.min.js"></script>
+	<script type="text/javascript" src="../assets/angular-route.min.js"></script>
+</head>
+<body>
+	<h1>Visita el Zoo</h1>
+
+   <a href="#/mobile">Mobile</a>
+   <a href="#/hello">Hello</a>
+
+    <div ng-view></div>
+
+    <script>
+        angular.module('initial_spi', ['ngRoute'])
+               .config(['$routeProvider', function($routeProvider){
+
+            /*
+             * `when()` cuantas veces sea necesario
+             * `otherwise()` una sola vez "OJO"
+            */
+            $routeProvider.when('/mobile', {
+                templateUrl : "mobile.html"
+            }).when('/hello', {
+                templateUrl : "hello.html"
+            }).otherwise({
+                redirectTo: '/',
+                templateUrl: 'otherwise.html'
+            });
+        }])
+    </script>
+</body>
+</html>

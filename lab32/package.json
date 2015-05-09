@@ -1,0 +1,21 @@
+{
+  "name": "lab32",
+  "version": "1.0.0",
+  "description": "workflow",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "vtorresr"
+  },
+  "keywords": [],
+  "author": "viviana torres",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-uglify": "^1.2.0"
+  }
+}

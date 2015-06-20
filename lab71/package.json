@@ -1,0 +1,19 @@
+{
+  "name": "lab71",
+  "version": "1.0.0",
+  "description": "laboratorio sass",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "vitorresr"
+  },
+  "author": "vtorres",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.1"
+  }
+}
